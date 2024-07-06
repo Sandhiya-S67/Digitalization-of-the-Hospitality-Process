@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css">
+    <title>Hospitality Process Digitalization</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload CSV Files</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="group_info">Group Information CSV:</label>
+            <input type="file" name="group_info" id="group_info" accept=".csv" required>
+            <br><br>
+            <label for="hostel_info">Hostel Information CSV:</label>
+            <input type="file" name="hostel_info" id="hostel_info" accept=".csv" required>
+            <br><br>
+            <button type="submit">Upload and Allocate</button>
+        </form>
+    </div>
+</body>
+</html>
