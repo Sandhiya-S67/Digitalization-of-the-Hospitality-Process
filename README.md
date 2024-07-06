@@ -15,8 +15,8 @@ This project is a Flask-based web application designed to allocate rooms in host
 ## Installation and Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/RoomAllocationApp.git
-    cd RoomAllocationApp
+    git clone https://github.com/Sandhiya-S67/Digitalization-of-the-Hospitality-Process.git
+    cd Digitalization-of-the-Hospitality-Process
     ```
 
 2. Set up a virtual environment:
