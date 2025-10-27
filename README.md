@@ -22,7 +22,7 @@ This project is a Flask-based web application designed to allocate rooms in host
 2. Set up a virtual environment:
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate  
     ```
 
 3. Install dependencies:
